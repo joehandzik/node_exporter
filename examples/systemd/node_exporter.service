@@ -2,7 +2,7 @@
 Description=Node Exporter
 
 [Service]
-User=node_exporter
+#User=node_exporter
 EnvironmentFile=/etc/sysconfig/node_exporter
 ExecStart=/usr/sbin/node_exporter $OPTIONS
 
